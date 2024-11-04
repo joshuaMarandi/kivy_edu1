@@ -1,0 +1,20 @@
+<HomeScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Educational App Home'
+            font_size: '32sp'
+            size_hint_y: None
+            height: 50
+        Button:
+            text: 'View Lessons'
+            on_release: root.manager.current = 'lessons'  # Switch to lessons screen
+        Button:
+            text: 'Take Quiz'
+            on_release: root.manager.current = 'quiz'      # Switch to quiz screen
+        Button:
+            text: 'Search Lessons'
+            on_release: root.manager.current = 'search'    # Switch to search screen
+        Button:
+            text: 'Profile'
+            on_release: root.manager.current = 'profile'    # Switch to profile screen

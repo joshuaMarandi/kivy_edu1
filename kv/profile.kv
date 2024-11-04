@@ -1,0 +1,11 @@
+<ProfileScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Profile Settings'
+            font_size: '24sp'
+        TextInput:
+            hint_text: 'Enter your name'
+        Button:
+            text: 'Save'
+            on_release: root.save_profile()

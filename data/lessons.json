@@ -1,0 +1,30 @@
+{
+    "subjects": [
+        {
+            "name": "Math",
+            "lessons": [
+                {
+                    "title": "Introduction to Addition",
+                    "content": "In this lesson, we will learn about addition."
+                },
+                {
+                    "title": "Introduction to Subtraction",
+                    "content": "In this lesson, we will learn about subtraction."
+                }
+            ]
+        },
+        {
+            "name": "Language",
+            "lessons": [
+                {
+                    "title": "Basic Vocabulary",
+                    "content": "In this lesson, we will learn some basic vocabulary."
+                },
+                {
+                    "title": "Simple Sentences",
+                    "content": "In this lesson, we will learn how to construct simple sentences."
+                }
+            ]
+        }
+    ]
+}

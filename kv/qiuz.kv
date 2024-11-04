@@ -1,0 +1,18 @@
+<QuizScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Quiz: ' + root.question
+            font_size: '24sp'
+        Button:
+            text: root.options[0]
+            on_release: root.check_answer(root.options[0])
+        Button:
+            text: root.options[1]
+            on_release: root.check_answer(root.options[1])
+        Button:
+            text: root.options[2]
+            on_release: root.check_answer(root.options[2])
+        Button:
+            text: root.options[3]
+            on_release: root.check_answer(root.options[3])

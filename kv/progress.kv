@@ -1,0 +1,10 @@
+<ProgressScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Your Progress'
+            font_size: '24sp'
+        ProgressBar:
+            id: progress_bar
+            value: root.current_progress
+            max: 100

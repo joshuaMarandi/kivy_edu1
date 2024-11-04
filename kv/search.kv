@@ -1,0 +1,17 @@
+<SearchScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: search_input
+            hint_text: 'Search for lessons...'
+            size_hint_y: None
+            height: 40
+        Button:
+            text: 'Search'
+            on_release: root.search_lessons(search_input.text)
+        ScrollView:
+            Label:
+                id: search_results
+                text: ''
+                size_hint_y: None
+                height: self.minimum_height
