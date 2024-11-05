@@ -7,6 +7,7 @@ from kivy.uix.label import Label
 from kivy.lang import Builder
 from kivy.clock import Clock
 
+
 # Load KV files for the app layout
 Builder.load_file('kv/splash.kv')
 Builder.load_file('kv/main.kv')
